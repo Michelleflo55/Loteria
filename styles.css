@@ -17,3 +17,19 @@ h1 {
     50%{   color: rgb(56, 248, 232);    }
     100%{   color: rgb(241, 118, 118);    }
 }
+
+.blinking-bg{
+    color: rgb(255, 177, 177);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    animation: blinkingBackground 2s infinite;
+    padding: 70%;
+}
+@keyframes blinkingBackground{
+    0%		{ background-color: #10c018;}
+    25%		{ background-color: #87b4f6;}
+    50%		{ background-color: #fbf579;}
+    75%		{ background-color: #b343d6;}
+    100%	        { background-color: #04a1d5;}
+}
