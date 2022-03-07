@@ -1,0 +1,19 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.blinking{
+    animation:blinkingText 1.3s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(167, 72, 219);    }
+    0%{     color: rgb(42, 5, 255);    }
+    10%{     color: rgb(58, 255, 68);    }
+    20%{     color: rgb(239, 182, 67);    }
+    30%{    color: rgb(255, 0, 0); }
+    40%{    color:hotpink; }
+    30%{    color:rgb(249, 255, 78);  }
+    50%{   color: rgb(56, 248, 232);    }
+    100%{   color: rgb(241, 118, 118);    }
+}

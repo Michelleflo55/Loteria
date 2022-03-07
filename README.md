@@ -18,3 +18,7 @@ Once you dive into the culture and learn this game is extremely fun, I hope you 
 
 CHECK OUT THE TRELLO BOARD TO FOLLOW THE MAKING OF DIGITAL LOTERIA!
 *** Check out Trello Board https://trello.com/b/pCeNi98H/loteria ***
+
+
+*** CREDITS**
+(Blinking test) https://html-online.com/articles/blinking-text-css-animation/
