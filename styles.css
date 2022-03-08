@@ -45,6 +45,7 @@ body{
     justify-content: center;
     padding:50px;
     align-content: stretch;
+    flex-wrap: wrap;
 }
   
 .flex-container > div {
@@ -54,6 +55,6 @@ body{
     text-align: center;
     line-height: 200px;
     font-size: 30px;
-    flex-wrap:wrap ;
+
     
   }
