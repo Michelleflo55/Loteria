@@ -23,7 +23,7 @@ body{
     animation:blinkingText 1.3s infinite;
 }
 @keyframes blinkingText{
-    0%{     color: rgb(167, 72, 219);    }
+    2%{     color: rgb(0, 0, 0);    }
     0%{     color: rgb(42, 5, 255);    }
     10%{     color: rgb(58, 255, 68);    }
     20%{     color: rgb(239, 182, 67);    }
@@ -40,21 +40,27 @@ body{
     display:block;
 }
 
-.flex-container{
-    display: flex;
-    justify-content: center;
-    padding:50px;
-    align-content: stretch;
-    flex-wrap: wrap;
-}
-  
-.flex-container > div {
-    background-color: #f1f1f1;
-    width: 200px;
-    margin: 1px;
-    text-align: center;
-    line-height: 200px;
-    font-size: 30px;
-
-    
+.container {
+    background: #5df0ff;
+    display: inline-block;
+    border: 5px solid #5df0ff;
   }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    grid-template-rows: repeat(3, 154px);
+    grid-gap: 5px;
+  }
+  
+  .cell {
+     /* center the cell content */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    background: rgb(255 134 134);
+  }
+  

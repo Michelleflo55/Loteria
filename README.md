@@ -24,3 +24,4 @@ CHECK OUT THE TRELLO BOARD TO FOLLOW THE MAKING OF DIGITAL LOTERIA!
 (Blinking test) https://html-online.com/articles/blinking-text-css-animation/
 (Blinkinh background) https://bytutorial.com/blogs/css3/how-to-create-blinking-background-color-and-text-using-css3-animation
 (Redirecting)https://www.youtube.com/watch?v=Swzem9EdFhw&t=55s
+(Grid)https://bluegalaxy.info/codewalk/2018/03/01/html-css-create-square-grid-using-css-grid/
