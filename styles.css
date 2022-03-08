@@ -2,6 +2,19 @@ h1 {
     font-size: 100px;
     text-align: center;
 }
+body{
+    background-color: rgb(254, 191, 191);
+}
+.intro{
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(182, 60, 80);
+    }
 
 .blinking{
     animation:blinkingText 1.3s infinite;
@@ -17,7 +30,3 @@ h1 {
     50%{   color: rgb(56, 248, 232);    }
     100%{   color: rgb(241, 118, 118);    }
 }
-.table{
-    
-}
-
