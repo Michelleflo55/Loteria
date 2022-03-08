@@ -2,6 +2,9 @@ h1 {
     font-size: 100px;
     text-align: center;
 }
+h2{
+    font-size: 20px;
+}
 body{
     background-color: rgb(254, 191, 191);
 }
@@ -29,4 +32,10 @@ body{
     30%{    color:rgb(249, 255, 78);  }
     50%{   color: rgb(56, 248, 232);    }
     100%{   color: rgb(241, 118, 118);    }
+}
+
+.intro{
+    background-color: rgb(139, 236, 255);
+    justify-content: center;
+    display:block;
 }
