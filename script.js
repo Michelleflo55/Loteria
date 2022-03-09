@@ -1,10 +1,13 @@
  //redirecting to second html page   
         document.querySelector('button')
                 addEventListener('click', () => {
-                window.location.href = 'file:///Users/bubbies/ga_seir/projects/Loteria/play.html';
+                window.location.href = 'play.html';
                 });
 
-////SETTING UP PICTURE RANDOMIZATION
+
+
+
+                ////SETTING UP PICTURE RANDOMIZATION
 let picArr = [
         { originalPosition: 0, clicked: false, img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.s-zGgVVdiWlnr6VGqZcNJQHaLG%26pid%3DApi&f=1' },
         { originalPosition: 1, clicked: false, img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.kWGzGhAXn-FaVOXkeN2WoAHaLG%26pid%3DApi&f=1' },
@@ -40,10 +43,15 @@ let picArr = [
                 shuffle(picArr);
                 console.log(picArr);
 
-/////// Adding button to shuffle cards
-        document.querySelector('button')
-                addEventListener('click', () => {
-                       
-                });
+                // TARGETTING DECK
+        let deck = document.getElementById('deck')
+        console.log(deck) //<--defining variable
+ deck.src = picArr[0].img //redifining variable
 
-                console.log('card is drawing')
+/////// Adding button to shuffle cards
+        // document.querySelector('button')
+        //         addEventListener('click', () => {
+                       
+        //         });
+
+        //         console.log('card is drawing')
