@@ -44,6 +44,9 @@ body{
     background: #5df0ff;
     display: inline-block;
     border: 5px solid #5df0ff;
+    justify-content: flex-end;
+    margin: 0px 215px 50px 0px
+    align-items: stretch;
   }
   
   .grid {
@@ -63,4 +66,20 @@ body{
     font-weight: bold;
     background: rgb(255 134 134);
   }
+
+ .click{
+
+     background-color: rgb(255, 49, 49);
+     color: black;
+     height: 60px;
+     width: 121px;
+ } 
+
+ .container{
+     justify-content: flex-end;
+     margin: 0px 185px 50px 0px;
+     display: inline-block;
+     align-items: stretch;
+ }
   
+ .draw{}
