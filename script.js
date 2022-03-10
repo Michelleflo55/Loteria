@@ -46,13 +46,15 @@ let shuffle = (array) => {
                 // TARGETTING DECK
         let deck = document.getElementById('deck')
         console.log(deck) //<--defining variable
- deck.src = picArr[0].img //redifining variable
+        deck.src = picArr[0].img //redifining variable
 
-/////// Adding button to shuffle cards
-        // document.querySelector('button')
-        //         addEventListener('click', () => {
-                       
-        //         });
 
-        //         console.log('card is drawing')
           
+     let markX = () =>{
+             document.getElementsByClassName('gridPic')  
+        
+        
+        
+        
+        }
+

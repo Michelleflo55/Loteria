@@ -1,3 +1,16 @@
+.intro{
+    font-family: 'Indie Flower', cursive;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(182, 60, 80);
+    background-color: rgb(139, 236, 255);
+    justify-content: center;
+    display:block;
+    }
 h1 {
     font-size: 100px;
     text-align: center;
@@ -9,17 +22,6 @@ h2{
 body{
     background-color: rgb(254, 191, 191);
 }
-.intro{
-    font-family: 'Indie Flower', cursive;
-    align-items: center;
-    font-size: 50px;
-    text-align: center;
-    display: flex;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    background-color: rgb(182, 60, 80);
-    }
 
 .blinking{
     animation:blinkingText 1.3s infinite;
@@ -35,22 +37,7 @@ body{
     50%{   color: rgb(56, 248, 232);    }
     100%{   color: rgb(241, 118, 118);    }
 }
-
-.intro{
-    background-color: rgb(139, 236, 255);
-    justify-content: center;
-    display:block;
-}
-
-.container {
-    background: #5df0ff;
-    display: inline-block;
-    border: 5px solid #5df0ff;
-    justify-content: flex-end;
-    margin: 0px 215px 50px 0px
-    align-items: stretch;
-  }
-  
+ /* Below is for play.html */
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 140px);
@@ -59,10 +46,6 @@ body{
   }
   
   .cell {
-     /* center the cell content */
-    justify-content: center;
-    align-items: center;
-    display: flex;
     font-family: Arial;
     font-size: 3rem;
     font-weight: bold;
@@ -72,18 +55,20 @@ body{
  .click{
 
      background-color: rgb(255, 49, 49);
-     color: black;
-     height: 60px;
-     width: 121px;
+     height: 70px;
+     width: 144px;
  } 
 
  .container{
-     justify-content: flex-end;
-     margin: 0px 185px 50px 0px;
-     display: inline-block;
-     align-items: stretch;
-     flex-basis: auto;
- }
+    background: #5df0ff;
+    display:inline-flex;
+    border: 5px solid #5df0ff;
+    margin: 0px 80px 0px 54px;  
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    
+}
   
  .gridPic{
     height: 155px;
@@ -94,3 +79,15 @@ body{
      font-size: 30px;
      font-family: 'Indie Flower', cursive;;
  }
+
+ .drawSize{
+    height: 250px;
+    width: 220px;
+    position: absolute;
+    right: 457px;
+    top: 436px;
+    border: 5px solid rgb(56, 248, 232);
+}
+ 
+
+ 
