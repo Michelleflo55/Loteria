@@ -1,6 +1,7 @@
 h1 {
     font-size: 100px;
     text-align: center;
+    font-family:'Indie Flower', cursive;;
 }
 h2{
     font-size: 20px;
@@ -9,6 +10,7 @@ body{
     background-color: rgb(254, 191, 191);
 }
 .intro{
+    font-family: 'Indie Flower', cursive;
     align-items: center;
     font-size: 50px;
     text-align: center;
@@ -83,4 +85,12 @@ body{
      flex-basis: auto;
  }
   
- .draw{}
+ .gridPic{
+    height: 155px;
+    width: 141px;
+ }
+
+ h2{
+     font-size: 30px;
+     font-family: 'Indie Flower', cursive;;
+ }

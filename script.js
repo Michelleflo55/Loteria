@@ -26,7 +26,7 @@ let picArr = [
         { originalPosition: 14, clicked: false, img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qrxl5YVebK0U0k3JA4TVnQHaLG%26pid%3DApi&f=1' }
       ]
 // I found this Fisher-Yates solution here: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-      let shuffle = (array) => {
+let shuffle = (array) => {
         let currentIndex = array.length, randomIndex;
                  // While there remain elements to shuffle...
                 while (currentIndex != 0) {
@@ -55,3 +55,4 @@ let picArr = [
         //         });
 
         //         console.log('card is drawing')
+          
