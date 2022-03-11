@@ -8,7 +8,7 @@
         } else {
                 let drawButton = document.querySelector('#drawCard')
                 let gridPics = document.querySelectorAll('.gridPic')        
-                drawButton.addEventListener('click', () =>{
+                        drawButton.addEventListener('click', () =>{
                                 console.log('banana')
                                 let deck = document.getElementById('deck')
                                 // let wholeGrid = Array(gridPics.length);
