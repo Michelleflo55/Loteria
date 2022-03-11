@@ -52,14 +52,14 @@ body{
     background: rgb(255 134 134);
   }
 
- .click{
-
+ .click {
+    font-family:'Indie Flower', cursive;
      background-color: rgb(255, 49, 49);
      height: 70px;
      width: 144px;
  } 
 
- .container{
+ .container {
     background: #5df0ff;
     display:inline-flex;
     border: 5px solid #5df0ff;
@@ -70,17 +70,17 @@ body{
     
 }
   
- .gridPic{
+ .gridPic {
     height: 155px;
     width: 141px;
  }
 
- h2{
+ h2 {
      font-size: 30px;
      font-family: 'Indie Flower', cursive;;
  }
 
- .drawSize{
+ .drawSize {
     height: 250px;
     width: 220px;
     position: absolute;
@@ -88,6 +88,17 @@ body{
     top: 436px;
     border: 5px solid rgb(56, 248, 232);
 }
- 
-
- 
+h3{
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+}
+.hidden{
+    display:none;
+}
+.visible{
+    display: block;
+}
+#play-again{
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+}
