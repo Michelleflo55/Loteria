@@ -1,15 +1,13 @@
  //redirecting to second html page   
-//  let drawButton = document.querySelector('#drawCard')
-//  let gridPics = document.querySelectorAll('.gridPic')
-         
+
  if(document.URL.includes('index.html')){
          let redirectButton = document.querySelector('#redirect')
                 redirectButton.addEventListener('click', () => {
                 window.location.href = 'play.html'
                 });
         } else {
-                // let drawButton = document.querySelector('#drawCard')
-                // let gridPics = document.querySelectorAll('.gridPic')
+                let drawButton = document.querySelector('#drawCard')
+                let gridPics = document.querySelectorAll('.gridPic')
                         drawButton.addEventListener('click', () =>{
                                 console.log('banana')
                                 let deck = document.getElementById('deck')
@@ -18,7 +16,9 @@
                          gridPics.forEach((picture,idx)=>{
                                 //  console.log(picture.src)
                                 //  console.log(deck.src)
-                       
+                         //  let drawButton = document.querySelector('#drawCard')
+                        //  let gridPics = document.querySelectorAll('.gridPic')
+         
                         let randDeck = picArr[Math.floor(Math.random()*(picArr.length))]
                                 deck.src = randDeck.img  
                                 console.log(deck.src)
@@ -110,6 +110,6 @@ let picArr = [
 //                 if(gameOverArea.classList.contains("visible")){
 //                   return;  
 //                 }}
-    
+ 
     
       
