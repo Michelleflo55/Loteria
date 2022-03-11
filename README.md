@@ -10,6 +10,9 @@
     }
 
 # **Project**
+**https://digiloteria.surge.sh/**
+
+
 This project was inspired by the famous Loteria Game. It is a game commonly played with large groups at Mexican gatherings. Michelle Flores' Loteria brings back part of her culture to the digital world.
             How to play: Place beans on your board as matching cards are called from deck.
                 
