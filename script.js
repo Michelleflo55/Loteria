@@ -1,25 +1,37 @@
  //redirecting to second html page   
-        if(document.URL.includes('index.html')){
+ let drawButton = document.querySelector('#drawCard')
+ let gridPics = document.querySelectorAll('.gridPic')
+         
+ if(document.URL.includes('index.html')){
          let redirectButton = document.querySelector('#redirect')
                 redirectButton.addEventListener('click', () => {
                 window.location.href = 'play.html'
                 });
         } else {
-                let drawButton = document.querySelector('#drawCard')
-                let gridPics = document.querySelectorAll('.gridPic')
+                // let drawButton = document.querySelector('#drawCard')
+                // let gridPics = document.querySelectorAll('.gridPic')
                         drawButton.addEventListener('click', () =>{
                                 console.log('banana')
                                 let deck = document.getElementById('deck')
                                 // let wholeGrid = Array(gridPics.length);
-                        //      console.log(wholeGrid)  
+                             console.log(gridPics)  
                          gridPics.forEach((picture,idx)=>{
                                 //  console.log(picture.src)
                                 //  console.log(deck.src)
-                                if(picture.src===deck.src){
-                                        console.log(idx,picture)
+                       
+                        let randDeck = picArr[Math.floor(Math.random()*(picArr.length))]
+                                deck.src = randDeck.img  
+                                console.log(deck.src)
+                                let card = parseInt(picture.dataset.card)    
+                                console.log(picture.dataset.card)
+                                deck.dataset.card = randDeck.originalPosition
+                                console.log(deck.dataset.card)
+                                if(card===parseInt(deck.dataset.card))
+                                 {
+                                        console.log('inside if statement')
                                 picture.src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.vZWLwJ06gaUuYaNo2hje8QHaE8%26pid%3DApi&f=1'
                         } else {
-                                deck.src = picArr[Math.floor(Math.random()*picArr.length)].img
+                                
                         //        deck.src = picArr[Math.floor(Math.random()*picArr.length)].img
                         }; 
                         
@@ -50,33 +62,54 @@ let picArr = [
         { originalPosition: 14, clicked: false, img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qrxl5YVebK0U0k3JA4TVnQHaLG%26pid%3DApi&f=1' }
       ]
 // I found this Fisher-Yates solution here: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-        let shuffle = (array) => {
-        let currentIndex = array.length, randomIndex;
-                 // While there remain elements to shuffle...
-                while (currentIndex != 0) {
-                // Pick a remaining element...
-                randomIndex = Math.floor(Math.random() * currentIndex);
-                currentIndex--; 
-              // And swap it with the current element.
-                 [array[currentIndex], array[randomIndex]] = [
-                array[randomIndex], array[currentIndex]];
+//         let shuffle = (array) => {
+//         let currentIndex = array.length, randomIndex;
+//                  // While there remain elements to shuffle...
+//                 while (currentIndex != 0) {
+//                 // Pick a remaining element...
+//                 randomIndex = Math.floor(Math.random() * currentIndex);
+//                 currentIndex--; 
+//               // And swap it with the current element.
+//                  [array[currentIndex], array[randomIndex]] = [
+//                 array[randomIndex], array[currentIndex]];
        
-        }
-                return array;
-      }
-               // Used like so
-                shuffle(picArr);
-                console.log(picArr);
+//         }
+//                 return array;
+//       }
+//                // Used like so
+//                 shuffle(picArr);
+//                 console.log(picArr);
                
-                // TARGETTING DECK
+//                 // TARGETTING DECK
         
         // console.log(deck) //<--defining variable
         // deck.src = picArr[0].img //redifining variable
 
-        // const gameOverArea = document.getElementById("game-over-area");
-        // const gameOver = document.getElementById("game-over-text");
-        // const playAgain = document.getElementById("play-again");
-        // playAgain.addEventListener("click", startNewGame);
+//         let gameOverArea = document.getElementById("loteria");
+//         let gameOver = document.getElementById("loteria-text");
+//         let playAgain = document.getElementById("play-again");
+//         playAgain.addEventListener("click", startNewGame);
         
-          
+//         let gridFilled=grid.every((cell) => cell !== null);
+//     if(gridFilled){
+//         gameOverScreen(null);
+//     }  
+//     function gameOverScreen(winnerText){
+//         let text = 'Loteria!'
+//     };
+//     gameOverArea.className = "visible";
+//     gameOverText.innerText = text;
+//     function startNewGame (){
+//         gameOverArea.className = "hidden";
+//         grid.fill(null);
+//         cell.forEach((cell) => (cell.innerText = ""));
+//         turn = PLAYER_X;
+        
+//         }
+//         function drawButtonClick(event){
+//                 if(gameOverArea.classList.contains("visible")){
+//                   return;  
+//                 }}
+    
+    
       
