@@ -22,7 +22,7 @@ h2{
 body{
     background-color: rgb(254, 191, 191);
 }
-
+/* I got this Blinking feature from https://html-online.com/articles/blinking-text-css-animation/ */
 .blinking{
     animation:blinkingText 1.3s infinite;
 }

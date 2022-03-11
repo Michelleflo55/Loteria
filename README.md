@@ -1,27 +1,36 @@
-# Loteria
-Play the famous Mexican Bingo
+ # **Digi-Loteria**
+![title](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.belmont.gov%2Fhome%2Fshowpublishedimage%2F11852%2F637272293204070000&f=1&nofb=1)
+# **Overview**
+    Let Loteria = MexicanBingo;
+        if {
+        
+        board=filled(withBeans);
+        
+        console.log('LOTERIA!')
+    }
 
-# Overview
-Learn to Play Loteria Game or Mexican Bingo.
+# **Project**
+This project was inspired by the famous Loteria Game. It is a game commonly played with large groups at Mexican gatherings. Michelle Flores' Loteria brings back part of her culture to the digital world.
+            How to play: Place beans on your board as matching cards are called from deck.
+                
+            This game is intended to be played with $$. 
+                
+            Once your board is filled with beans, first person to 
+                    
+            shout "Loteria!" keeps the money that everyone bet.
+    
+# **Getting Started**
+Fork and Clone this repo
+
+Open the repo in VS Code with code
 
 
-# Project
-This game was inspired by the famous Loteria Game. It is a game commonly played with big groups at Mexican gatherings. Michelle Flores' Loteria brings back the culture to the digital world.
+# **Objective:**
+ON JAVASCRIPT:
+Execute randomization of deck to successfully pair beans image with correct gridPic.
+          
+
+# *Trello Board*
+     Check out Trello Board for additional tasks: https://trello.com/b/pCeNi98H/loteria 
 
 
-# PLAY:
-In order to beat this game (against the computer), you will have to fill all 15 boxes on your board with a card that matches your box. If 'frog card' is called out and you have a frog on your box, click your box and the spot will be filled. GREAT, now beat the computer and try to have your 15 boxes filled first.
-
-As soon as all your 15 boxes are filled, you must click "LOTERIA" button in order to win. Remember, this is a game of speed, so you have to beat the computer in filling your boxes & clicking "LOTERIA".
-
-Once you dive into the culture and learn this game is extremely fun, I hope you play the original game with your family.:)
-
-CHECK OUT THE TRELLO BOARD TO FOLLOW THE MAKING OF DIGITAL LOTERIA!
-*** Check out Trello Board https://trello.com/b/pCeNi98H/loteria ***
-
-
-*** CREDITS**
-(Blinking test) https://html-online.com/articles/blinking-text-css-animation/
-(Blinkinh background) https://bytutorial.com/blogs/css3/how-to-create-blinking-background-color-and-text-using-css3-animation
-(Redirecting)https://www.youtube.com/watch?v=Swzem9EdFhw&t=55s
-(Grid)https://bluegalaxy.info/codewalk/2018/03/01/html-css-create-square-grid-using-css-grid/
