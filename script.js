@@ -6,14 +6,17 @@
                 window.location.href = 'play.html'
                 });
         } else {
-                let drawButton = document.querySelector('#drawCard')
-                let gridPics = document.querySelectorAll('.gridPic')        
-                        drawButton.addEventListener('click', () =>{
-                                console.log('banana')
-                                let deck = document.getElementById('deck')
-                                // let wholeGrid = Array(gridPics.length);
-                             console.log(gridPics)  
-                         gridPics.forEach((picture,idx)=>{
+                
+        let drawButton = document.querySelector('#drawCard')
+        let gridPics = document.querySelectorAll('.gridPic')          
+                
+        drawButton.addEventListener('click', () =>{
+                console.log('banana')
+                        
+                let deck = document.getElementById('deck')
+                  // let wholeGrid = Array(gridPics.length);
+                 console.log(gridPics)  
+                 gridPics.forEach((picture,idx)=>{
                                 //  console.log(picture.src)
                                 //  console.log(deck.src)
                          //  let drawButton = document.querySelector('#drawCard')
